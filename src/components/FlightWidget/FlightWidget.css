@@ -1,5 +1,4 @@
 .widget-container {
-  min-width: fit-content;
   width: 90%;
   display: flex;
   justify-content: center;
@@ -7,6 +6,7 @@
   flex-direction: column;
   height: 90%;
   border-radius: 20px;
+  margin: 0.5rem;
 }
 
 header {
@@ -59,7 +59,7 @@ header {
 
   .widget-container{
     height: fit-content;
-    padding: 2rem;
+    width: 95%;
   }
 
   tbody{

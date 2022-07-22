@@ -6,7 +6,9 @@
   text-align: center;
   color: white;
   height: 100%;
+  width: 100%;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 

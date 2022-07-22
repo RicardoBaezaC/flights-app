@@ -20,8 +20,10 @@
 @media (max-width: 800px) {
 
   .header-text{
-    display: block;
-    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
   }
 
   .word{
