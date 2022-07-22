@@ -83,7 +83,7 @@ export const FlightWidget = () => {
             <table>
                 <thead>
                     <tr>
-                        <th>TIME</th>
+                        <th data-th="TIME">TIME</th>
                         <th>DESTINATION</th>
                         <th>FLIGHT</th>
                         <th>GATE</th>

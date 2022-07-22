@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   background-color: rgb(222, 178, 48);
   text-align: center;
   color: white;
@@ -10,11 +9,9 @@
   overflow-y: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+
+@media (max-width: 800px){
+  .App{
+    align-items: flex-start;
   }
 }

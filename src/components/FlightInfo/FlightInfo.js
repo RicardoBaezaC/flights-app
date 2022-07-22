@@ -11,11 +11,11 @@ export const FlightInfo = ({data}) => {
 
     return (
         <tr className="flight">
-            <td ><div className="word">{convertStringToArray(time)}</div></td>
-            <td ><div className="word">{convertStringToArray(destination)}</div></td>
-            <td ><div className="word">{convertStringToArray(flight)}</div></td>
-            <td ><div className="word">{convertStringToArray(gate)}</div></td>
-            <td ><div className="word">{convertStringToArray(remarks)}</div></td>
+            <td><div className="header-text">TIME</div><div className="word">{convertStringToArray(time)}</div></td>
+            <td><div className="header-text">DESTINATION</div><div className="word">{convertStringToArray(destination)}</div></td>
+            <td><div className="header-text">FLIGHT</div><div className="word">{convertStringToArray(flight)}</div></td>
+            <td><div className="header-text">GATE</div><div className="word">{convertStringToArray(gate)}</div></td>
+            <td><div className="header-text">REMARKS</div><div className="word">{convertStringToArray(remarks)}</div></td>
         </tr>
     );
 }
