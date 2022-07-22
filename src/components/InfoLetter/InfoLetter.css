@@ -1,0 +1,25 @@
+.letter {
+  width: 1.5em;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  height: 2.5em;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+}
+
+.flip {
+  animation: card-flip ease-in-out 1s alternate;
+}
+
+@keyframes card-flip {
+  0% {
+    transform: rotateX(0deg);
+  }
+  100% {
+    transform: rotateX(-360deg);
+  }
+}
